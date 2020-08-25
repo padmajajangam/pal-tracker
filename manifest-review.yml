@@ -2,8 +2,6 @@
 applications:
 - name: pal-tracker-review
   path: src/PalTracker/bin/Release/netcoreapp3.1/publish/
-  env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry
   routes:
   - route: msg-pal-tracker-review-pad-rida.cfapps.io
   env:
