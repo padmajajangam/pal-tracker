@@ -45,7 +45,6 @@ namespace PalTracker
             {
                 return NotFound();
             }
-
             _repository.Delete(id);
 
             return NoContent();
